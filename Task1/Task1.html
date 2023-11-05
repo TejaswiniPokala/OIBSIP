@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Landing Page</title>
+    <style>
+        body {
+            background-image: url("https://cdn.wallpapersafari.com/45/74/YuL37S.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .topright {
+            position: absolute;
+            top: 10px;
+            right: 20px;
+            font-size: 18px;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 50px;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+            color: #6f42c1; /* Purple color for the heading */
+        }
+
+        .blink {
+            animation: blinker 1.5s linear infinite;
+            color: #6f42c1; /* Purple color for the blinking text */
+        }
+
+        @keyframes blinker {
+            50% {
+                opacity: 0;
+            }
+        }
+
+        .social-icons {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .social-icons a {
+            text-decoration: none;
+            color: #6f42c1;
+            margin: 0 20px;
+            transition: color 0.3s;
+        }
+
+        .social-icons a:hover {
+            color: #8a63d2; /* Lighter purple color on hover */
+        }
+
+        button {
+            background-color: #6f42c1;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #8a63d2; /* Lighter purple color on hover */
+        }
+    </style>
+</head>
+<body>
+<div class="topright">
+    <table>
+        <tr>
+            <td><a href="https://www.google.com/search?q=oasis+infobyte&rlz=1C1CHBD_enIN1040IN1040&oq=&aqs=chrome.3.69i59l2j46i67i131i433i650j69i59j69i57j0i67i650j0i67i433i650j69i61.6108j0j7&sourceid=chrome&ie=UTF-8"><button>Home</button></a></td>
+            <td></td>
+            <td></td>
+            <td><a href="https://oasisinfobyte.com/#features"><button>Internships</button></a></td>
+            <td></td>
+            <td></td>
+            <td><a href="https://www.glassdoor.co.in/Reviews/Oasis-Infobyte-Reviews-E7563232.htm"><button>Reviews</button></a></td>
+        </tr>
+    </table>
+</div>
+<br>
+<h2><marquee loop='5'>*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.</marquee></h2>
+<marquee class="blink" direction="right">
+    Oasis Infobyte is offering internships&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    Oasis Infobyte is offering internships&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    Oasis Infobyte is offering internships&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    Oasis Infobyte is offering internships
+</marquee>
+<h2><marquee loop='5'>*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.</marquee></h2>
+<h1>Welcome to <span style="color: #8a63d2;">Oasis Infobyte</span></h1><br>
+<div class="social-icons">
+    <a href="https://www.linkedin.com/company/oasis-infobyte/"><img src="linkedin.png" height="30" width="30" alt="LinkedIn"></a>
+    <a href="https://www.youtube.com/results?search_query=oasis+infobyte+internship"><img src="youtube.png" height="30" width="30" alt="YouTube"></a>
+    <a href="https://www.facebook.com/people/Oasis-Infobyte/100077689264614/"><img src="facebook.png" height="30" width="30" alt="Facebook"></a>
+    <a href="https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Faccounts%2Fedit%2F%3F__coig_login%3D1"><img src="insta.jpeg" height="30" width="30" alt="Instagram"></a>
+</div>
+</body>
+</html>
